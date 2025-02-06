@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Add this script tag before your custom script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTGeats Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+    <!-- Header -->
+    <header>
+      <div class="logo">JTGeats</div>
+      <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+      </nav>
+      <div class="header-right">
+        
+          <button class="search-btn"> ⌕ </button>
+          <!-- Cart Modal -->
+          <button class="cart-icon">🛒</button>
+<div id="cartModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2 style="color:black "> Cart is empty</h2>
+
+    <div id="cartItems"></div> <!-- Container for cart items -->
+    
+    <button id="backToMenuBtn">Back to Menu</button>
+  </div>
+</div>
+
+
+<!-- Cart Icon -->
+
+      </div>
+  </header>
+  
+
+    <!-- Landing Section -->
+    <section class="landing-section">
+        <div class="content">
+            <h1>Authentic Home food in India</h1>
+            <p>JTGeats is a courier service in which authentic home-cooked food is delivered to a customer.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search food you love" />
+                <button>Search</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="cook-illustration.jpg" alt="Illustration of a cook">
+        </div>
+    </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Home Kitchen</h1>
+    <div class="grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="1.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹190 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="11.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹123 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="12.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹190 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card">
+        <img src="13.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹150 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="card">
+        <img src="6.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹199 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="card">
+        <img src="7.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹179 ★ 4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="card">
+        <img src="8.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹200 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 8 -->
+      <div class="card">
+        <img src="9.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹160 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 9 -->
+      <div class="card">
+        <img src="10.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹170 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 10 -->
+      <div class="card">
+        <img src="11.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹155 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 11 -->
+      <div class="card">
+        <img src="12.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹185 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+      <!-- Card 12 -->
+      <div class="card">
+        <img src="13.png" alt="Home made pizza">
+        <div class="details">
+          <h3>Home made pizza</h3>
+          <p>₹200 ★4.7 [50-79 min]</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Popular Items Section -->
+     
+    <section class="popular-items">
+      <!-- Popular Items Section -->
+
+  <div class="carousel">
+    <!-- Carousel items here -->
+  </div>
+  <!-- Request Dish Button -->
+ 
+</section>
+
+<!-- Modal for Request Dish -->
+<div class="modal request-dish-modal">
+  <div class="modal-content">
+    <h2>Request a Dish</h2>
+    <label for="dish-name">Dish Name:</label>
+    <input type="text" id="dish-name" placeholder="Enter the dish name">
+    <label for="dish-quantity">Quantity:</label>
+    <input type="number" id="dish-quantity" placeholder="Enter quantity">
+    <div class="modal-actions">
+      <button class="cancel-btn">Cancel</button>
+      <button class="submit-btn">Submit Request</button>
+    </div>
+  </div>
+</div>
+
+      <h2>Popular Items</h2>
+      <div class="carousel">
+        <button class="carousel-arrow left-arrow">&lt;</button>
+        <div class="items-slider">
+          <div class="item">
+            <img src="14.png" alt="Home made pizza">
+            <div class="item-info">
+              <h3>Home made pizza</h3>
+              <p>₹190</p>
+              <p>★ 4.7</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="15.png" alt="Tandoori Chicken">
+            <div class="item-info">
+              <h3>Tandoori Chicken</h3>
+              <p>₹184</p>
+              <p>★ 4.3 [15-19 min]</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="16.png" alt="CBQ Chicken">
+            <div class="item-info">
+              <h3>Chilli Chicken</h3>
+              <p>₹116</p>
+              <p>★ 4.1 [30-40 min]</p>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-arrow right-arrow">&gt;</button>
+      </div>
+   <!-- Request Dish Button -->
+<button id="requestDishBtn" class="btn">Request a Dish</button>
+
+<!-- Modal -->
+<div id="requestDishModal" class="modal">
+    <div class="modal-content">
+        <h2>Request a Dish</h2>
+        <form>
+            <label for="dishName">Name*</label>
+            <input type="text" id="dishName" placeholder="Enter name of the dish" required>
+            <label for="dishImage">Upload an Image</label>
+            <input type="url" id="dishImage" placeholder="Paste a URL">
+            <div class="modal-buttons">
+                <button type="button" id="cancelBtn" class="btn">Cancel</button>
+                <button type="submit" id="submitBtn" class="btn">Submit Request</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+            
+        </div>
+
+        
+        
+    </div>
+    <script src="script.js"></script>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <h2>We are providing the best </h2>
+      <h2>home cooked food delivery service.</h2>
+      <p>Away from home and craving the tasty homemade recipes?</p>
+      <p>Choose from our delicious home cooked dishes.</p>
+      <div>
+        <div style="text-align: center; margin-top: 20px;">
+  <video controls style="width: 1000px; border-radius: 0px;">
+       
+          <source src="f.mp4" type="video/mp4">
+          <div class="play-button"></div>
+        </video>
+        
+      </div>
+    </section>
+
+   
+
+</head>
+<body>
+    <!-- Contact Us Section -->
+    <section class="contact-us">
+        <div class="contact-content">
+            <h2>Do you have a question<br> or want to become a seller?</h2>
+            <p>Fill this form and our manager will contact you next 48 hours.</p>
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your e-mail">
+                </div>
+                <textarea placeholder="Your message"></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+        <div class="contact-image">
+            <img src="bike.png" alt="Delivery Boy">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <<header class="navbar">
+      <div class="logo">JTGeats</div>
+      <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="social-icons">
+        <a href="#" class="icon facebook"></a>
+        <a href="#" class="icon instagram"></a>
+      </div>
+    </header>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empty Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">JTGeets</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-icon">&#128269;</div>
+    </header>
+
+    <!-- Empty Cart Modal -->
+    <div class="cart-container">
+        <div class="cart-modal">
+            <div class="cart-icon">
+                <img src="https://img.icons8.com/ios/100/shopping-bag.png" alt="Cart Icon">
+            </div>
+            <h2>Cart is Empty</h2>
+            <p>Add some items to the cart to checkout</p>
+            <button id="back-to-menu">Back to Menu</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search and Cart Icons</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Style for container */
+        .icon-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: #34C759; /* Green background */
+            padding: 10px 20px;
+            color: white;
+        }
+
+        /* Style for icons */
+        .icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .icon:hover {
+            color: #FFD700; /* Hover effect with yellow */
+        }
+
+        /* Notification badge for cart */
+        .cart {
+            position: relative;
+        }
+
+        .badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 4px 6px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Icon Container -->
+    <div class="icon-container">
+        <!-- Search Icon -->
+        <i class="fa fa-search icon" title="Search"></i>
+
+        <!-- Cart Icon with Notification -->
+        <div class="cart">
+            <i class="fa fa-shopping-bag icon" title="Cart"></i>
+            <span class="badge">1</span>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+  
+
+
