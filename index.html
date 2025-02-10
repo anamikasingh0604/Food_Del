@@ -1,450 +1,951 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Add this script tag before your custom script -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JTGeats Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
 </head>
+
 <body>
+    <div class="full-width-container hero-section">
+        <div class="custom-container">
+            <div class="custom-row navsection">
+                <div class="logo">
+                    <h1 id="logoText">JTGeats</h1>
+                </div>
+                <div class="nav-items">
+                    <ul id="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class='wrapper'>
+                        <div class="icon nav-icon-2">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-box">
+                    <ul>
+                        <li><a href="#"><img src="img/search.png" alt=""></a></li>
+                        <li><a href="#" id="myBtn"><img src="img/cart.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="custom-container">
+            <div class="custom-row">
+                <div class="hero-left">
+                    <div class="hero-content">
+                        <h1>Authentic Home food in India</h1>
+                        <p>JTGeats is a courier service in which authentic home cook food is delivered to a customer.
+                        </p>
+                        <div class="search-box">
+                            <input type="text" placeholder="Search food you love">
+                            <button type="submit">Search</Search></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-img">
+                        <img src="./img/cuate.png" alt=""  >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width-container product-section">
+        <div class="custom-container">
+            <div class="custom-row">
+                <div class="product-title" style="width: 100%;">
+                    <h2>Home Kitchen</h2>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//2.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹123</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//3.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                
+                                <span class="add">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//4.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                              
+                                <span class="add">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//5.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>$19</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//6.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                
+                                <span class="add">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//7.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//8.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//4.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//10.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>$19</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <div class="add-item">
+                                <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                30-40 min
+                            </button>
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//3.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width-container">
+        <div class="custom-container">
+            <div class="titles" style="margin-bottom: 30px;">
+                <h1 style="text-align: center;">Popular Items</h1>
+            </div>
+            <div class="responsive" style="position: relative;">
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span class="minus">-</span>
+                                <span class="count">1</span>
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//9.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Tandoori Chicken</p>
+                            </div>
+                            <div class="price">
+                                <span>₹184</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                15-29 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//10.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Chilli Chicken</p>
+                            </div>
+                            <div class="price">
+                                <span>₹116</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                30-40 min
+                            </button>
+                            <div class="add-item">
+                                
+                                <span class="add">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//2.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹184</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                
+                                <span class="add">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//5.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹116</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//6.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                
+                                <span class="add">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//4.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//8.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹116</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹190</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹184</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="./img//6.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹116</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-box">
+                        <div class="product-img">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-name">
+                                <p>Home  pizza</p>
+                            </div>
+                            <div class="price">
+                                <span>₹184</span>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="rate">4.7</span>
+                            </div>
+                            <button style="background: #f0f0f0; border: 1px solid #ccc; padding: 4px 8px; 
+                                border-radius: 12px; font-size: 12px; font-weight: 500; 
+                                color: black; display: flex; align-items: center;">
+                                50-79 min
+                            </button>
+                            <div class="add-item">
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width-container" style="padding-bottom:40px; display:flex; justify-content: center;">
 
-  
-    <!-- Header -->
-    <header>
-      <div class="logo">JTGeats</div>
-      <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Menu</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
-      </nav>
-      <div class="header-right">
-        
-          <button class="search-btn"> ⌕ </button>
-          <!-- Cart Modal -->
-          <button class="cart-icon">🛒</button>
-<div id="cartModal" class="modal">
-  <div class="modal-content">
-    <span class="close-btn">&times;</span>
-    <h2 style="color:black "> Cart is empty</h2>
-
-    <div id="cartItems"></div> <!-- Container for cart items -->
+    <button class="request" id="myBtn2">Request a Dish</button>
+    </div>
+    <div class="full-width-container">
+        <div class="custom-container">
+            <div class="title" style="text-align: center;">
+                <h1><span style="display: block;">
+                        We are providing best
+                    </span>
+                    <span style="display: block;">home cooked food delivery service.</span>
+                </h1>
+            </div>
+            <p style="text-align: center;margin-top: 16px;">Away from home nd craving the tasty homemade recipes? Choose
+                from a selection of our delicious home cooked dishes </p>
+        </div>
+    </div>
+    <div class="full-width-container video-section">
+        <div class="custom-container">
+            <div class="custom-row" style="justify-content: center;">
+                <div class="video-box" style="display: flex; align-items: center; justify-content: center; position: relative;">
+                    
+                    
+                    <video id="videoPlayer" width="640" height="360" controls poster="./img/media bg-cover.png" style="display: none;">
+                        <source src="img/f.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
     
-    <button id="backToMenuBtn">Back to Menu</button>
-  </div>
-</div>
-
-
-<!-- Cart Icon -->
-
-      </div>
-  </header>
-  
-
-    <!-- Landing Section -->
-    <section class="landing-section">
-        <div class="content">
-            <h1>Authentic Home food in India</h1>
-            <p>JTGeats is a courier service in which authentic home-cooked food is delivered to a customer.</p>
-            <div class="search-bar">
-                <input type="text" placeholder="Search food you love" />
-                <button>Search</button>
+                    
+                    <img id="videoThumbnail" src="./img/media bg-cover.png" alt="Thumbnail" style="margin: 0 auto; cursor: pointer;">
+                    
+                    
+                    <div class="play-btn" id="playButton" style="position: absolute; cursor: pointer;">
+                        <img src="./img/Arrow.png" alt="Play Button">
+                    </div>
+                    
+                </div>
             </div>
         </div>
-        <div class="image-container">
-            <img src="cook-illustration.jpg" alt="Illustration of a cook">
-        </div>
-    </section>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Kitchen</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Home Kitchen</h1>
-    <div class="grid">
-      <!-- Card 1 -->
-      <div class="card">
-        <img src="1.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹190 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="card">
-        <img src="11.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹123 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="card">
-        <img src="12.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹190 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 4 -->
-      <div class="card">
-        <img src="13.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹150 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 5 -->
-      <div class="card">
-        <img src="6.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹199 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 6 -->
-      <div class="card">
-        <img src="7.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹179 ★ 4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 7 -->
-      <div class="card">
-        <img src="8.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹200 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 8 -->
-      <div class="card">
-        <img src="9.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹160 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 9 -->
-      <div class="card">
-        <img src="10.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹170 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 10 -->
-      <div class="card">
-        <img src="11.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹155 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 11 -->
-      <div class="card">
-        <img src="12.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹185 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
-      <!-- Card 12 -->
-      <div class="card">
-        <img src="13.png" alt="Home made pizza">
-        <div class="details">
-          <h3>Home made pizza</h3>
-          <p>₹200 ★4.7 [50-79 min]</p>
-          <p></p>
-        </div>
-      </div>
     </div>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Kitchen</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <!-- Popular Items Section -->
-     
-    <section class="popular-items">
-      <!-- Popular Items Section -->
+    <div class="full-width-container footer">
+        <div class="custom-container">
 
-  <div class="carousel">
-    <!-- Carousel items here -->
-  </div>
-  <!-- Request Dish Button -->
- 
-</section>
+            <div class="custom-row">
 
-<!-- Modal for Request Dish -->
-<div class="modal request-dish-modal">
-  <div class="modal-content">
-    <h2>Request a Dish</h2>
-    <label for="dish-name">Dish Name:</label>
-    <input type="text" id="dish-name" placeholder="Enter the dish name">
-    <label for="dish-quantity">Quantity:</label>
-    <input type="number" id="dish-quantity" placeholder="Enter quantity">
-    <div class="modal-actions">
-      <button class="cancel-btn">Cancel</button>
-      <button class="submit-btn">Submit Request</button>
-    </div>
-  </div>
-</div>
+                <div class="hero-left" style="flex-wrap: wrap;">
+                    <div class="title" style="width: 100%;">
+                        <h2>
+                            Do you have a question
+                            or want to become a seller?
+                        </h2>
+                        Fill this form and our manager will contact you next 48 hours.
+                        <p></p>
+                    </div>
+                    <div class="contact" style="width: 100%;">
+                        <form action="/action_page.php">
+                            <div style="width: 50%; padding: 8px;">
+                                <input type="text" id="fname" name="firstname" placeholder="Your Name">
+                            </div>
+                            <div style="width: 50%; padding: 8px;">
+                                <input type="text" id="email" name="email" placeholder="Your e-mail">
 
-      <h2>Popular Items</h2>
-      <div class="carousel">
-        <button class="carousel-arrow left-arrow">&lt;</button>
-        <div class="items-slider">
-          <div class="item">
-            <img src="14.png" alt="Home made pizza">
-            <div class="item-info">
-              <h3>Home made pizza</h3>
-              <p>₹190</p>
-              <p>★ 4.7</p>
+                            </div>
+                            <div style="width: 100%; padding: 8px;">
+                                <textarea id="subject" name="subject" placeholder="Your message"
+                                    style="height:150px"></textarea>
+                                <input type="submit" value="Submit" style="width: 200px;">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-img">
+                        <img src="./img/Food_delivery_cute_man_riding_motorcycles_cartoon_art_illustration 2.png"
+                            alt="">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="item">
-            <img src="15.png" alt="Tandoori Chicken">
-            <div class="item-info">
-              <h3>Tandoori Chicken</h3>
-              <p>₹184</p>
-              <p>★ 4.3 [15-19 min]</p>
-            </div>
-          </div>
-          <div class="item">
-            <img src="16.png" alt="CBQ Chicken">
-            <div class="item-info">
-              <h3>Chilli Chicken</h3>
-              <p>₹116</p>
-              <p>★ 4.1 [30-40 min]</p>
-            </div>
-          </div>
-          
         </div>
-        <button class="carousel-arrow right-arrow">&gt;</button>
-      </div>
-   <!-- Request Dish Button -->
-<button id="requestDishBtn" class="btn">Request a Dish</button>
-
-<!-- Modal -->
-<div id="requestDishModal" class="modal">
-    <div class="modal-content">
-        <h2>Request a Dish</h2>
-        <form>
-            <label for="dishName">Name*</label>
-            <input type="text" id="dishName" placeholder="Enter name of the dish" required>
-            <label for="dishImage">Upload an Image</label>
-            <input type="url" id="dishImage" placeholder="Paste a URL">
-            <div class="modal-buttons">
-                <button type="button" id="cancelBtn" class="btn">Cancel</button>
-                <button type="submit" id="submitBtn" class="btn">Submit Request</button>
-            </div>
-        </form>
     </div>
-</div>
+    <div class="full-width-container last">
+        <div class="custom-container" style="padding-bottom: 40px;">
+            <div class="custom-row navsection">
+                <div class="logo">
+                    <h1 id="logoText">JTGeats</h1>
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="cart-box">
+                    <ul>
+                        <li><a href="#"><img src="img/Card.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/iconoir_add-to-cart.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hr" style="height: 1px; background-color: #e6e4e4;"></div>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <img src="./img/cart.png" style="background-color: var(--color5);" alt="" width="150px">
+            <h2 style="margin-top: 12px;">Cart is Empty</h2>
+            <p style="margin-top: 12px;">Add some items to the cart to checkout</p>
+            <button class="close">Back to Menu</button>
+        </div>
+    </div>
+        <!-- The Modal -->
+        <div id="myModal2" class="modal2">
+            <!-- Modal content -->
+            <div class="modal-content2">
+                <h2 style="margin-top: 12px;margin-bottom: 24px;">Request a Dish</h2>
+                <div class="contact" style="width: 100%;">
+                    <form action="#">
+                        <div style="width: 100%; padding: 8px;">
+                            <label for="fname">Name*</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Enter name of the dish">
+                        </div>
+                        <div style="width: 100%; padding: 8px;">
+                            <label for="email">Upload an image</label>
+                            <input type="text" id="email" name="email" placeholder="Paste an URL">
+
+                        </div>
+                        <div style="width: 100%; padding: 8px;display: flex;justify-content: space-around;align-items: center;">
+                            <button class="close2">Cancel</button>
+                            <button class="submit">Submit Request</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        document.getElementById("playButton").addEventListener("click", function () {
+            let video = document.getElementById("videoPlayer");
+            let thumbnail = document.getElementById("videoThumbnail");
+            let playBtn = document.getElementById("playButton");
 
             
-        </div>
+            thumbnail.style.display = "none";
+            playBtn.style.display = "none";
+            video.style.display = "block";
+            video.play();
+        });
+    </script>
+</body>
 
-        
-        
-    </div>
-    <script src="script.js"></script>
-    </section>
-
-    <!-- About Section -->
-    <section class="about">
-      <h2>We are providing the best </h2>
-      <h2>home cooked food delivery service.</h2>
-      <p>Away from home and craving the tasty homemade recipes?</p>
-      <p>Choose from our delicious home cooked dishes.</p>
-      <div>
-        <div style="text-align: center; margin-top: 20px;">
-  <video controls style="width: 1000px; border-radius: 0px;">
-       
-          <source src="f.mp4" type="video/mp4">
-          <div class="play-button"></div>
-        </video>
-        
-      </div>
-    </section>
-
+</html>
    
 
-</head>
-<body>
-    <!-- Contact Us Section -->
-    <section class="contact-us">
-        <div class="contact-content">
-            <h2>Do you have a question<br> or want to become a seller?</h2>
-            <p>Fill this form and our manager will contact you next 48 hours.</p>
-            <form>
-                <div class="input-group">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your e-mail">
-                </div>
-                <textarea placeholder="Your message"></textarea>
-                <button type="submit" class="submit-btn">Submit</button>
-            </form>
-        </div>
-        <div class="contact-image">
-            <img src="bike.png" alt="Delivery Boy">
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <<header class="navbar">
-      <div class="logo">JTGeats</div>
-      <nav class="menu">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Menu</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-      </nav>
-      <div class="social-icons">
-        <a href="#" class="icon facebook"></a>
-        <a href="#" class="icon instagram"></a>
-      </div>
-    </header>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empty Cart</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="logo">JTGeets</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="search-icon">&#128269;</div>
-    </header>
-
-    <!-- Empty Cart Modal -->
-    <div class="cart-container">
-        <div class="cart-modal">
-            <div class="cart-icon">
-                <img src="https://img.icons8.com/ios/100/shopping-bag.png" alt="Cart Icon">
-            </div>
-            <h2>Cart is Empty</h2>
-            <p>Add some items to the cart to checkout</p>
-            <button id="back-to-menu">Back to Menu</button>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search and Cart Icons</title>
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        /* Style for container */
-        .icon-container {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            background-color: #34C759; /* Green background */
-            padding: 10px 20px;
-            color: white;
-        }
-
-        /* Style for icons */
-        .icon {
-            font-size: 24px;
-            cursor: pointer;
-        }
-
-        .icon:hover {
-            color: #FFD700; /* Hover effect with yellow */
-        }
-
-        /* Notification badge for cart */
-        .cart {
-            position: relative;
-        }
-
-        .badge {
-            position: absolute;
-            top: -8px;
-            right: -8px;
-            background-color: red;
-            color: white;
-            border-radius: 50%;
-            padding: 4px 6px;
-            font-size: 12px;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Icon Container -->
-    <div class="icon-container">
-        <!-- Search Icon -->
-        <i class="fa fa-search icon" title="Search"></i>
-
-        <!-- Cart Icon with Notification -->
-        <div class="cart">
-            <i class="fa fa-shopping-bag icon" title="Cart"></i>
-            <span class="badge">1</span>
-        </div>
-    </div>
-
-</body>
-</html>
+  
 
 
 
